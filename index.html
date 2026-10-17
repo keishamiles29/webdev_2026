@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey Into Tech</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            section {
+                scroll-margin-top: 20px;
+            }
+        }
+        header {
+            background-color: navy;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        body {
+            background-color: rgb(173, 179, 230);            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            width:100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+    h1 {
+        color: white;
+        text-align:center;
+       }
+       img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+       }
+       img:hover {
+        transform: scale(1.05);
+       }
+       section {
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+       }
+       section:hover{
+        transform: translateY(-5px);
+       }
+       a {
+        display: inline-block;
+        background-color: navy;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+         }
+         a:hover {
+        background-color: purple;
+        color: white;
+       }
+       nav {
+        text-align: center;
+        margin: 15px 0;
+       }
+       nav a:hover {
+        background-color: purple;
+        color: white;
+       }
+       nav a:focus-visible{
+        outline: 3px solid orange;
+        outline-offset: 3px;
+       }
+       @media (max-width: 600px) {
+        h1 {
+            font-size: 24px;
+        }
+        main {
+            padding: 15px; 
+        }
+        a {
+            overflow-wrap: anywhere;
+            display: block;
+            text-align: center;
+         }
+        }
+        </style>
+        </head>
+<body>
+    <main>
+        <header>
+            <h1>My Journey Into Tech</h1>
+        </header>
+        <nav>
+        <a href="#about">About Me</a>
+        <a href="#goals">My Goals</a>
+     </nav>
+
+ <section id="about">
+    <h2>About Me</h2>
+    <p>I am a computer sceience student, new to learning about web development.
+    </p>
+ </section>
+ <section id="goals">
+ <h2>My Goals</h2>
+ <p>
+    <a href="https://www.comptia.org/">
+        Expolre Cybersecurity Careers
+    </a>
+ </p>
+<h3>My Career Goals</h3>
+<ul>
+    <li>Graduate with my computer science degree</li>
+    <li>Contuine into a 4-year university</li>
+    <li>Secure an entry-level as a position as a cybersecurity</li>
+</ul>
+ </section>
+ <img src="cybersecurity.jpg" alt="Cybersecurity image represnting digital security">
+
+ </main>
+ <footer>
+    <p> esatblished by a future cybersecurity professional.</p>
+ </footer>
+</body>
+</html>
