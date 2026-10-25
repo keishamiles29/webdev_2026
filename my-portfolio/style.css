@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+       color: navy;
+       font-family: arial, sans-serif;
+    }
+
+    header{
+        background-color: navy;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px 0;
+        border: 2px solid navy;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .about-box{
+        background-color: white;
+        padding: 20px;
+        border: 2px solid navy;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+    #footer{
+        background-color: navy;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: 2px solid white;
+    }
