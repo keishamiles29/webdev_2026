@@ -36,3 +36,21 @@ body{
         margin-top: 20px;
         border: 2px solid white;
     }
+
+    .portfolio-grid{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .portfolio-grid .about-box {
+        min-width: 0;
+        margin: 0;
+        overflow: anywhere;
+    }
+    @media (max-width: 800px) {
+        .portfolio-grid {
+            grid-template-columns: 1fr;
+        }
+    }
