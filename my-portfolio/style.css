@@ -1,7 +1,11 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+body {
     background-color: lightblue;
        color: navy;
-       font-family: arial, sans-serif;
+       font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3 {
+        font-family: 'poppins', sans-serif;
     }
 
     header{
@@ -49,8 +53,23 @@ body{
         margin: 0;
         overflow: anywhere;
     }
-    @media (max-width: 800px) {
-        .portfolio-grid {
-            grid-template-columns: 1fr;
-        }
+  @media (max-width: 900px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@media (max-width: 600px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+main > section {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid navy;
+    border-radius: 10px;
+    margin: 20px 0;
+    overflow-wrap: anywhere;
+}
